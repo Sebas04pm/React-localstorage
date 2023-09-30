@@ -1,0 +1,24 @@
+.td-task{
+    display: flex;
+    align-items:center;
+}
+
+.edit-btn{
+    background-color: #0d6efd;
+    position: relative;
+    justify-self: right;
+    color: #ffff;
+    padding: 4px 8px;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+    font-size: .875rem;
+}
+.edit-btn:active{
+    box-shadow: 0 0 0 0.25rem #0a53be;
+}
+
+.div-checkEdit{
+    display: flex;
+    gap: 10px;
+}
